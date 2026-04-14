@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+:root {
+  --blue-500: hsl(233, 87%, 63%);
+  --Blue-200: hsl(223, 100%, 88%);
+  --Red-400: hsl(354, 100%, 66%);
+  --Gray-400: hsl(0, 0%, 59%);
+  --Blue-950: hsl(209, 33%, 12%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container {
+  margin-top: 2%;
+}
+.states-container {
+  margin-top: 1.5%;
+}
+.states {
+  font-size: 3rem;
+  color: var(--Gray-400);
+  font-weight: 200;
+}
+.states span {
+  color: black;
+  font-weight: 700;
+}
+.subs-text {
+  font-size: 1.3rem;
+  color: rgb(107, 107, 107);
+}
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 2%;
+}
+.search-box {
+  border: 1px gray solid;
+  width: 35%;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  border-radius: 30px;
+}
+.notify-btn {
+  border: none;
+  background-color: var(--blue-500);
+  color: white;
+  border-radius: 30px;
+  width: 10%;
+  box-shadow: 1px 9px 10px var(--Blue-200);
+}
+.notify-btn:hover {
+  cursor: pointer;
+  background-color: var(--Blue-200);
+  transition: 0.1s;
+}
+::placeholder {
+  opacity: 0.5;
+  color: var(--Gray-400);
+}
+.dashbord-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.dashbord-img {
+  width: 45%;
+}
+.platforms-container {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+}
+.facebook-icon-container {
+  border: 1px gray solid;
+  padding: 10px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.facebook-icon {
+  height: 12px;
+}
+.twitter-icon-container {
+  border-radius: 20px;
+  padding: 10px 11px;
+  display: flex;
+  align-items: center;
+  border: 1px gray solid;
+}
+.twitter-icon {
+  height: 13px;
+}
+.insagram-icon-container {
+  border-radius: 20px;
+  padding: 8px 9px;
+  display: flex;
+  align-items: center;
+  border: 1px gray solid;
+}
+.instagram-icon {
+  height: 14px;
+}
+.copyright-container {
+  margin-top: 2%;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
