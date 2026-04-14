@@ -44,6 +44,7 @@ body {
   color: rgb(107, 107, 107);
 }
 .search-container {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -57,6 +58,37 @@ body {
   padding-top: 0.8rem;
   padding-left: 0.8rem;
   border-radius: 30px;
+}
+.search-bar.error {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid var(--Pink-400);
+  border-radius: 50px;
+  outline: none;
+}
+.search-bar-container input {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid var(--Pink-400);
+  border-radius: 50px;
+  outline: none;
+}
+.done-msg{
+  position: absolute;
+  left: 28%;
+  color: green;
+  font-size: .9rem;
+  opacity: .8;
+  bottom: -50%;
+  display: none;
+}
+.error-msg{
+  position: absolute;
+  left: 28%;
+  color: var(--Red-400);
+  font-size: .8rem;
+  opacity: .8;
+  bottom: -50%;
 }
 .notify-btn {
   border: none;
@@ -95,6 +127,10 @@ body {
   display: flex;
   align-items: center;
 }
+.facebook-icon-container:hover{
+  background-color: rgb(228, 225, 225);
+  transition: .3s;
+}
 .facebook-icon {
   height: 12px;
 }
@@ -105,6 +141,10 @@ body {
   align-items: center;
   border: 1px gray solid;
 }
+.twitter-icon-container:hover{
+  background-color: rgb(228, 225, 225);
+  transition: .3s;
+}
 .twitter-icon {
   height: 13px;
 }
@@ -114,6 +154,10 @@ body {
   display: flex;
   align-items: center;
   border: 1px gray solid;
+}
+.insagram-icon-container:hover{
+  background-color: rgb(228, 225, 225);
+  transition: .3s;
 }
 .instagram-icon {
   height: 14px;
